@@ -10,7 +10,7 @@ parser.add_argument("-i", "--image", help="Image to apply the halftoning", requi
 parser.add_argument("-d", "--destiny", help="Name of destiny file", required=True)
 parser.add_argument("-g", "--gray", help="1 to gray", type=int)
 parser.add_argument("-z", "--zigzag", help="1 to zigzag", type=int)
-
+args = parser.parse_args()
 
 args = parser.parse_args()
 
